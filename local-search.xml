@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>Econ of Bankin and Money</title>
+    <link href="/2022/12/05/Econ%20of%20Bankin%20and%20Money/"/>
+    <url>/2022/12/05/Econ%20of%20Bankin%20and%20Money/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Week-One"><a href="#Week-One" class="headerlink" title="Week One"></a>Week One</h1><h3 id="Big-Picture"><a href="#Big-Picture" class="headerlink" title="Big Picture"></a>Big Picture</h3><ul><li>History ( rather than quantiatative ) approach</li><li>Classic Central Bank theory vs. Modern Finance</li><li>there’ll be no liquidity problem if the market is efficient</li></ul><h3 id="Perrequisites"><a href="#Perrequisites" class="headerlink" title="Perrequisites"></a>Perrequisites</h3><ul><li>ISLM model, we’ll come back to this later<ul><li>Investment saving equib (investment &#x3D; saving), <ul><li>lower rate -&gt; more investment -&gt; more GDP</li><li>line goes down</li></ul></li><li>Liquidity perference Money (money supply equals money demand)<ul><li>more GDP -&gt; need more money to supply the demand -&gt; higher rate</li><li>line go up</li></ul></li><li>horizontal axis : Y(GDP), Vertical axis : R(rate)</li></ul></li></ul><h3 id="Bank-Shadow-Bank-and-Central-Bank"><a href="#Bank-Shadow-Bank-and-Central-Bank" class="headerlink" title="Bank, Shadow Bank and Central Bank"></a>Bank, Shadow Bank and Central Bank</h3><h4 id="Bank"><a href="#Bank" class="headerlink" title="Bank"></a>Bank</h4><ul><li><table><thead><tr><th>asset</th><th>Liability</th></tr></thead><tbody><tr><td>loans</td><td>Deposit</td></tr><tr><td>security</td><td>Other borrowing</td></tr><tr><td>Cash reserve</td><td>net worth</td></tr></tbody></table></li><li><p>Two problems : which is important </p><ul><li>Sovency : is networth &gt; 0 ?</li><li>liquidity : reserve &gt; 0 ?</li><li>linking : if a bank sells security (real estate) lower than market price to gain liquidity, will it face the problem of solvency ?</li></ul></li></ul><h4 id="Shadow-Bank"><a href="#Shadow-Bank" class="headerlink" title="Shadow Bank"></a>Shadow Bank</h4><table><thead><tr><th>asset</th><th>Liability</th></tr></thead><tbody><tr><td>interst swap (sell default to get rid of risk)</td><td>borrowing</td></tr></tbody></table><h4 id="Central-Bank"><a href="#Central-Bank" class="headerlink" title="Central Bank"></a>Central Bank</h4><table><thead><tr><th>asset</th><th>liability</th></tr></thead><tbody><tr><td>security</td><td>deposit of Fed</td></tr><tr><td>Lending (swap)</td><td></td></tr></tbody></table><h3 id="Four-Prices-of-Money"><a href="#Four-Prices-of-Money" class="headerlink" title="Four Prices of Money"></a>Four Prices of Money</h3><ul><li>Par : money for today<ul><li>#deposit &#x3D;&#x3D; #cash ? most time yes</li></ul></li><li>Interst rate : money of future</li><li>exchange rate : foreign money </li><li>price level <ul><li>Cpi ? Duno</li></ul></li></ul><p>Bagehot is better guy for today than FIsher (who lives in a simple world)</p><p>all banking is swap of IOUs </p><h3 id="Reading-Allyn-Young"><a href="#Reading-Allyn-Young" class="headerlink" title="Reading : Allyn Young"></a>Reading : Allyn Young</h3><p>#TODO</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>to be explored</title>
     <link href="/2022/12/03/to%20be%20explored/"/>
     <url>/2022/12/03/to%20be%20explored/</url>
