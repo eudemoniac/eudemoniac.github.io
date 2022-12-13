@@ -16,23 +16,21 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="course  homework  Sql    project  project 0 : trie  project 1 : buffer pool control    project 0languageexplicitformid some kind of type conversion method const : make sure the method won’t change v">
+    <meta name="description" content="Func, Var Agreement :  Exported method&#x2F;variable must has capital first letter. first lowercase must be in-package method&#x2F;var   func syntax    func switch(invar 1, invar2 int) (outvar1 int, o">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CMU15445">
-<meta property="og:url" content="http://example.com/2022/12/06/CMU15445/index.html">
+<meta property="og:title" content="Golang">
+<meta property="og:url" content="http://example.com/2022/12/06/Golang/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="course  homework  Sql    project  project 0 : trie  project 1 : buffer pool control    project 0languageexplicitformid some kind of type conversion method const : make sure the method won’t change v">
+<meta property="og:description" content="Func, Var Agreement :  Exported method&#x2F;variable must has capital first letter. first lowercase must be in-package method&#x2F;var   func syntax    func switch(invar 1, invar2 int) (outvar1 int, o">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://raw.githubusercontent.com/eudemoniac/image/main/img/image-20221203171246558.png">
-<meta property="article:published_time" content="2022-12-06T07:59:14.000Z">
-<meta property="article:modified_time" content="2022-12-06T08:04:38.459Z">
+<meta property="article:published_time" content="2022-12-06T08:57:19.000Z">
+<meta property="article:modified_time" content="2022-12-06T14:23:19.199Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/eudemoniac/image/main/img/image-20221203171246558.png">
   
   
   
-  <title>CMU15445 - Hexo</title>
+  <title>Golang - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -197,7 +195,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="CMU15445"></span>
+            <span id="subtitle" data-typed-text="Golang"></span>
           
         </div>
 
@@ -208,7 +206,7 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-12-06 15:59" pubdate>
+        <time datetime="2022-12-06 16:57" pubdate>
           December 6, 2022 pm
         </time>
       </span>
@@ -269,107 +267,103 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">CMU15445</h1>
+            <h1 style="display: none">Golang</h1>
             
             
               <div class="markdown-body">
                 
-                <ul>
-<li><input checked="" disabled="" type="checkbox"> course</li>
-<li><input disabled="" type="checkbox"> homework<ul>
-<li><input disabled="" type="checkbox"> Sql</li>
+                <h2 id="Func-Var"><a href="#Func-Var" class="headerlink" title="Func, Var"></a>Func, Var</h2><ul>
+<li><p>Agreement :</p>
+<ul>
+<li>Exported method&#x2F;variable must has capital first letter.</li>
+<li>first lowercase must be in-package method&#x2F;var</li>
 </ul>
 </li>
-<li><input disabled="" type="checkbox"> project<ul>
-<li><input disabled="" type="checkbox"> project 0 : trie</li>
-<li><input disabled="" type="checkbox"> project 1 : buffer pool control</li>
+<li><p>func syntax</p>
+<ul>
+<li><pre><code class="go">  func switch(invar 1, invar2 int) (outvar1 int, outvar2 int) &#123;
+    
+  &#125;
+  <figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs axapta"><br>	- (outvar <span class="hljs-keyword">is</span> already there ! No need to create more)<br><br>- <span class="hljs-built_in">var</span> syntax<br><br>	- ```go<br>		<span class="hljs-comment">// style one</span><br>		<span class="hljs-built_in">var</span> namevar <span class="hljs-built_in">int</span><br>		<span class="hljs-built_in">var</span> x, y, z = <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-string">&quot;sds&quot;</span><br>		<br>		<span class="hljs-comment">//style two</span><br>		x := <span class="hljs-number">10</span><br>		<br>		<span class="hljs-comment">//style three</span><br>		x := <span class="hljs-built_in">int</span>&#123;<span class="hljs-number">10</span>&#125;<br></code></pre></td></tr></table></figure>
+</code></pre>
+</li>
+<li><p>so var is kinda like auto</p>
+</li>
+<li><p>Outside a function, every statement begins with a keyword ,and so the <code>:=</code>construct is not available.</p>
+</li>
+<li><p>Variables declared without an explicit initial value are given their <em>zero value</em>. </p>
+<ul>
+<li>0</li>
+<li>“”</li>
+<li>false</li>
+</ul>
+</li>
+<li><p>conversion </p>
+<ul>
+<li>java : (int) x; go,C : int(x)</li>
+<li>must be explicit ! or compile fault.</li>
 </ul>
 </li>
 </ul>
-<h1 id="project-0"><a href="#project-0" class="headerlink" title="project 0"></a>project 0</h1><h2 id="language"><a href="#language" class="headerlink" title="language"></a>language</h2><h4 id="explicit"><a href="#explicit" class="headerlink" title="explicit"></a>explicit</h4><p>formid some kind of type conversion</p>
-<h4 id="method-const"><a href="#method-const" class="headerlink" title="method const :"></a>method const :</h4><p> make sure the method won’t change var’s value</p>
-<p>Smart_ptr : automatically deallocate memory</p>
-<h4 id="noexcept"><a href="#noexcept" class="headerlink" title="noexcept"></a>noexcept</h4><p>…</p>
-<h4 id="unique-ptr"><a href="#unique-ptr" class="headerlink" title="unique_ptr"></a>unique_ptr</h4><ul>
-<li><p>one of smart_ptr, pointing only at one object</p>
-</li>
-<li><p><code>auto song2 = make_unique&lt;Song&gt;(args to construct Song)</code></p>
-</li>
-<li><p><code>unique_ptr&lt;Song&gt; A = move(song2) </code></p>
-</li>
-<li><p><code>std::move(u_p) : move by r-val value, meaning we are transfering the ownership </code> <a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/8114276/how-do-i-pass-a-unique-ptr-argument-to-a-constructor-or-a-function">how to pass unique_ptr</a></p>
-</li>
-<li><p>*song2 returns the pointer to the unique_ptr; song2.get() returns the pointer to the object.</p>
 </li>
 </ul>
-<h4 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h4><p>same as pointer, but we use reference when we tend to assure that the parameter nonnull.</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-comment">//some method</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">method1</span> <span class="hljs-params">(<span class="hljs-type">int</span>&amp; y)</span></span>&#123;<br>	<span class="hljs-built_in">printf</span>(y);<br>&#125;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">method2</span> <span class="hljs-params">(<span class="hljs-type">int</span>* y)</span></span>&#123;<br>  <span class="hljs-built_in">printf</span>(y); <span class="hljs-comment">// y could be a nullptr</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="flow-control"><a href="#flow-control" class="headerlink" title="flow control"></a>flow control</h2><ul>
+<li><p>for</p>
+<ul>
+<li><p>&#96;&#96;&#96;go<br>  for i :&#x3D; 0; i &lt;&#x3D; len; i++ {</p>
+<p>  }<br>  &#x2F;&#x2F;<br>  for condition {</p>
+<p>  }<br>  &#x2F;&#x2F; here for &#x3D;&#x3D; while</p>
+  <figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs actionscript"><br>- <span class="hljs-keyword">switch</span><br><br>	- ```<br>		<span class="hljs-keyword">switch</span> x := y % <span class="hljs-number">2</span>; x&#123;<br>		<span class="hljs-keyword">case</span> <span class="hljs-number">1</span>:<br>		<span class="hljs-keyword">case</span> <span class="hljs-number">2</span>:<br>		<span class="hljs-keyword">default</span>:<br>			<br>		&#125;<br>		<span class="hljs-comment">//stopping when a case succeeds.</span><br></code></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>defer</p>
+<ul>
+<li>A defer statement defers the execution of a function until the surrounding function returns.</li>
+<li>Deferred function calls are pushed onto a <strong>stack.</strong></li>
+</ul>
+<h2 id="more-types"><a href="#more-types" class="headerlink" title="more types"></a>more types</h2></li>
+<li><p>Pointers : *T</p>
+  <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs go">vat x *<span class="hljs-type">int</span><br>p = &amp;x<br></code></pre></td></tr></table></figure>
 
+</li>
+<li><p>Structures :struct</p>
+  <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs go"><span class="hljs-keyword">type</span> point <span class="hljs-keyword">struct</span> &#123;<br>  X <span class="hljs-type">int</span><br>  Y <span class="hljs-type">int</span><br>&#125;<br><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;<br>  p1 := point&#123;<span class="hljs-number">1</span>, <span class="hljs-number">2</span>&#125;<br>  ps := &amp;p1<br>  fmt.Println(p1.X)<span class="hljs-comment">// not *p1.X</span><br>&#125;<br></code></pre></td></tr></table></figure>
+</li>
+<li><p>arrays : [N]T</p>
+  <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs go"><span class="hljs-keyword">var</span> a [<span class="hljs-number">10</span>]<span class="hljs-type">int</span><br>a[<span class="hljs-number">0</span>] = <span class="hljs-string">&quot;xxx&quot;</span><br>a := [<span class="hljs-number">20</span>]<span class="hljs-type">int</span>&#123;<span class="hljs-number">1</span>,<span class="hljs-number">2</span>&#125;<br>b := a[<span class="hljs-number">1</span>:<span class="hljs-number">20</span>]<br></code></pre></td></tr></table></figure>
 
-
-<h4 id="Left-val-amp-right-val-amp-amp"><a href="#Left-val-amp-right-val-amp-amp" class="headerlink" title="Left-val(&amp;), right-val (&amp;&amp;)"></a>Left-val(&amp;), right-val (&amp;&amp;)</h4><p>auto &amp; ptr2 &#x3D; num –&gt; reference of a l-val</p>
-<p>auto &amp;&amp; ptr2 &#x3D; num+5 –&gt; reference of a r-val</p>
-<p>const auto&amp; ptr2 &#x3D; num+5 –&gt; pass a r value to const l value.</p>
-<p>l-val is undisposable, since it has name and address</p>
-<p>r-val is disposable and likely temporary.</p>
-<p><img src="https://raw.githubusercontent.com/eudemoniac/image/main/img/image-20221203171246558.png" srcset="/img/loading.gif" lazyload alt="image-20221203171246558"></p>
-<p>deal with unordered_map</p>
-<h4 id="for-loop"><a href="#for-loop" class="headerlink" title="for loop"></a>for loop</h4><ul>
-<li><p>&#96;&#96;&#96;c++<br>  for (auto i &#x3D; m.begin(); i!&#x3D; m.end(); i++){<br>printf(i-&gt;first, i-&gt;second);<br>  }<br>  for (auto i : key){</p>
+</li>
+<li><p>Slice : references not new copy</p>
+<ul>
+<li><pre><code class="go">  x := []int&#123;1,2,3&#125;
+  x := make([]int, 10(len), 20(cap))
+  cap(x)
+  len(x)
+  x = append(x, 10)
+  <figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs vim"><br>- slice of slice<br><br>	```<span class="hljs-keyword">go</span><br>	<span class="hljs-keyword">x</span> := [][]<span class="hljs-built_in">string</span>&#123;<br>	  []<span class="hljs-built_in">string</span>&#123;<span class="hljs-string">&quot;1&quot;</span>,<span class="hljs-string">&quot;1&quot;</span>,<span class="hljs-string">&quot;1&quot;</span>&#125;<br>	&#125;<br>	// <span class="hljs-built_in">type</span> : []([]<span class="hljs-built_in">string</span>)<br></code></pre></td></tr></table></figure>
+</code></pre>
+</li>
+<li><p>use make!!! to regulate the size</p>
+</li>
+</ul>
+</li>
+<li><p>Range : traverse the slice, return(index, value)</p>
+<ul>
+<li><p>&#96;&#96;&#96;<br>  for i, val :&#x3D; range x{</p>
 <p>  }</p>
-  <figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs reasonml"><br>#### <span class="hljs-literal">[C<span class="hljs-operator">++</span> <span class="hljs-identifier">calling</span> <span class="hljs-identifier">base</span> <span class="hljs-identifier">class</span> <span class="hljs-identifier">constructors</span>]</span>(https:<span class="hljs-comment">//stackoverflow.com/questions/15777635/c-calling-base-class-constructors)</span><br><br>```c++<br>public Derived : <span class="hljs-constructor">Base()</span>&#123;<br>public:<br>  <span class="hljs-constructor">Derived(<span class="hljs-params">int</span> <span class="hljs-params">x</span>, <span class="hljs-params">int</span> <span class="hljs-params">y</span>)</span> : <span class="hljs-constructor">Base(<span class="hljs-params">x</span>, <span class="hljs-params">y</span>)</span> &#123;<span class="hljs-operator"></span><br><span class="hljs-operator">    ...</span><br><span class="hljs-operator">  </span>&#125;<br><br>&#125;<br></code></pre></td></tr></table></figure></li>
+  <figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs vim"><br>- <span class="hljs-keyword">map</span><br><br>	- ```<span class="hljs-keyword">go</span><br>		var <span class="hljs-keyword">m</span> <span class="hljs-keyword">map</span>[key]val<br>		<span class="hljs-keyword">m</span> := <span class="hljs-keyword">make</span>(<span class="hljs-keyword">map</span>[<span class="hljs-keyword">int</span>]<span class="hljs-keyword">int</span>)<br>		<span class="hljs-keyword">m</span> := <span class="hljs-keyword">map</span>[<span class="hljs-keyword">int</span>]<span class="hljs-keyword">int</span> &#123;<br>		  <span class="hljs-number">1</span>:<span class="hljs-number">2</span>,<br>		  <span class="hljs-number">2</span>:<span class="hljs-number">3</span><br>		&#125;<br></code></pre></td></tr></table></figure>
+
+  <figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs autohotkey"><span class="hljs-built_in">val,</span> ok = m[key]<br></code></pre></td></tr></table></figure></li>
 </ul>
-<h4 id="size-of-data-structure"><a href="#size-of-data-structure" class="headerlink" title="size of data structure ?"></a>size of data structure ?</h4><p><code>some_container.size()</code></p>
-<h2 id="structure-of-the-object"><a href="#structure-of-the-object" class="headerlink" title="structure of the object"></a>structure of the object</h2><h3 id="Trie"><a href="#Trie" class="headerlink" title="Trie"></a>Trie</h3><ul>
-<li><p>key_char_</p>
 </li>
-<li><p>Is_end_</p>
-</li>
-<li><p>Map (char, trie*)</p>
-<h3 id="Is-end"><a href="#Is-end" class="headerlink" title="Is_end"></a>Is_end</h3></li>
-</ul>
-<p>EndNode : don’t change it unless necessary, the endnode only stands for whether it is a TrieWithValue node. So don’t use SETNODE during TrieNode methods.</p>
-<p>when to change end_node?</p>
-<ol>
-<li>create TrieWithValue f -&gt; T</li>
-<li>remove a key T -&gt; f.</li>
-</ol>
-<h3 id="data-structure"><a href="#data-structure" class="headerlink" title="data structure:"></a>data structure:</h3><ul>
-<li><p>Trie head</p>
+<li><p>closure </p>
 <ul>
-<li><p>TrieNode root_</p>
-<ul>
-<li><p>keychar ‘\0’</p>
-</li>
-<li><p>isend &#x3D; false</p>
-</li>
-<li><p>unordered_map</p>
-<ul>
-<li><p>Keychar ‘a’</p>
-</li>
-<li><p>TrieNode node1</p>
-<ul>
-<li><p>keychar	‘a’</p>
-</li>
-<li><p>Isend &#x3D; True (it is a TrieWithValue!)</p>
-</li>
-<li><p>value &#x3D; 10</p>
-</li>
-<li><p>Unordered_map</p>
-<ul>
-<li>…</li>
+<li>&#96;&#96;&#96;<br>  本质：内层函数变量（继承自外层函数）持久化，外层的变量只有一次赋值的效果  <figure class="highlight oxygene"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs oxygene"><br>		<br><br>## <span class="hljs-keyword">method</span> <span class="hljs-title function_">and</span> <span class="hljs-title function_">Interface</span><br><br>```<span class="hljs-title function_">go</span><br><span class="hljs-title function_">func</span> <span class="hljs-params">(x TypeInthisPackage)</span> <span class="hljs-title function_">hashCode</span><span class="hljs-params">()</span> <span class="hljs-title function_">bool</span> <span class="hljs-comment">&#123;</span><br><span class="hljs-comment">  </span><br><span class="hljs-comment">&#125;</span><br></code></pre></td></tr></table></figure></li>
 </ul>
 </li>
-</ul>
+<li><p>while methods with value receivers take either a value or a pointer as the receiver when they are called</p>
 </li>
 </ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="implement-insert-function"><a href="#implement-insert-function" class="headerlink" title="implement insert function"></a>implement insert function</h3><p>still fail to pass the insert test, sad :(</p>
 
                 
               </div>
@@ -387,8 +381,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>CMU15445</div>
-      <div>http://example.com/2022/12/06/CMU15445/</div>
+      <div>Golang</div>
+      <div>http://example.com/2022/12/06/Golang/</div>
     </div>
     <div class="license-meta">
       
@@ -432,18 +426,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/12/06/Golang/" title="Golang">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Golang</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/12/05/Econ%20of%20Bankin%20and%20Money/" title="Econ of Bankin and Money">
-                        <span class="hidden-mobile">Econ of Bankin and Money</span>
+                      <a href="/2022/12/06/CMU15445/" title="CMU15445">
+                        <span class="hidden-mobile">CMU15445</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
